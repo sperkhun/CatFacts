@@ -7,23 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40E1B230771046A44F1AAB50 /* Pods_CatFacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AC698BC419C5FAB787D206A /* Pods_CatFacts.framework */; };
 		A890EAB521E3AF8600383769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890EAB421E3AF8600383769 /* AppDelegate.swift */; };
-		A890EAB721E3AF8600383769 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890EAB621E3AF8600383769 /* ViewController.swift */; };
+		A890EAB721E3AF8600383769 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890EAB621E3AF8600383769 /* LoginViewController.swift */; };
 		A890EABA21E3AF8600383769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A890EAB821E3AF8600383769 /* Main.storyboard */; };
 		A890EABD21E3AF8600383769 /* CatFacts.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A890EABB21E3AF8600383769 /* CatFacts.xcdatamodeld */; };
 		A890EABF21E3AF8600383769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A890EABE21E3AF8600383769 /* Assets.xcassets */; };
 		A890EAC221E3AF8600383769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A890EAC021E3AF8600383769 /* LaunchScreen.storyboard */; };
+		A890EACA21E3C6B900383769 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890EAC921E3C6B900383769 /* RegistrationViewController.swift */; };
+		A890EACC21E3C6D700383769 /* CatFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890EACB21E3C6D700383769 /* CatFactsViewController.swift */; };
+		A890EAEA21E3D5EF00383769 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A890EAE921E3D5EF00383769 /* UserManager.swift */; };
+		A8E7E72421E4156B00C9C8D3 /* CatFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7E72321E4156B00C9C8D3 /* CatFacts.swift */; };
+		A8E7E73321E416DD00C9C8D3 /* Users+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7E73121E416DC00C9C8D3 /* Users+CoreDataProperties.swift */; };
+		A8E7E73421E416DD00C9C8D3 /* Users+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7E73221E416DD00C9C8D3 /* Users+CoreDataClass.swift */; };
+		A8E7E73621E41CD900C9C8D3 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7E73521E41CD900C9C8D3 /* Request.swift */; };
+		A8E7E73B21E427D900C9C8D3 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7E73A21E427D900C9C8D3 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12180DEB6423885B715A80B9 /* Pods-CatFacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatFacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-CatFacts/Pods-CatFacts.release.xcconfig"; sourceTree = "<group>"; };
+		75BBDC4DD802479A72EFB7D7 /* Pods-CatFacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatFacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CatFacts/Pods-CatFacts.debug.xcconfig"; sourceTree = "<group>"; };
+		9AC698BC419C5FAB787D206A /* Pods_CatFacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatFacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A890EAB121E3AF8600383769 /* CatFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A890EAB421E3AF8600383769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A890EAB621E3AF8600383769 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A890EAB621E3AF8600383769 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A890EAB921E3AF8600383769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A890EABC21E3AF8600383769 /* CatFacts.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CatFacts.xcdatamodel; sourceTree = "<group>"; };
 		A890EABE21E3AF8600383769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A890EAC121E3AF8600383769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A890EAC321E3AF8600383769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A890EAC921E3C6B900383769 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		A890EACB21E3C6D700383769 /* CatFactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactsViewController.swift; sourceTree = "<group>"; };
+		A890EAE921E3D5EF00383769 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		A8E7E72321E4156B00C9C8D3 /* CatFacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFacts.swift; sourceTree = "<group>"; };
+		A8E7E73121E416DC00C9C8D3 /* Users+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Users+CoreDataProperties.swift"; path = "/Users/sperkhun/Desktop/CatFacts/CatFacts/CoreData/Users+CoreDataProperties.swift"; sourceTree = "<absolute>"; };
+		A8E7E73221E416DD00C9C8D3 /* Users+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Users+CoreDataClass.swift"; path = "/Users/sperkhun/Desktop/CatFacts/CatFacts/CoreData/Users+CoreDataClass.swift"; sourceTree = "<absolute>"; };
+		A8E7E73521E41CD900C9C8D3 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		A8E7E73A21E427D900C9C8D3 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +51,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40E1B230771046A44F1AAB50 /* Pods_CatFacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		79CD2A02C79A1A46E79A9DF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AC698BC419C5FAB787D206A /* Pods_CatFacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A890EAA821E3AF8600383769 = {
 			isa = PBXGroup;
 			children = (
 				A890EAB321E3AF8600383769 /* CatFacts */,
 				A890EAB221E3AF8600383769 /* Products */,
+				E5554B0EBE5770A72384A1E2 /* Pods */,
+				79CD2A02C79A1A46E79A9DF3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +88,71 @@
 			isa = PBXGroup;
 			children = (
 				A890EAB421E3AF8600383769 /* AppDelegate.swift */,
-				A890EAB621E3AF8600383769 /* ViewController.swift */,
-				A890EAB821E3AF8600383769 /* Main.storyboard */,
 				A890EABE21E3AF8600383769 /* Assets.xcassets */,
-				A890EAC021E3AF8600383769 /* LaunchScreen.storyboard */,
 				A890EAC321E3AF8600383769 /* Info.plist */,
-				A890EABB21E3AF8600383769 /* CatFacts.xcdatamodeld */,
+				A8E7E73821E4270B00C9C8D3 /* CoreData */,
+				A8E7E73721E426EA00C9C8D3 /* ViewControllers */,
+				A8E7E73C21E45F2B00C9C8D3 /* AlamofireRequest */,
+				A8E7E73D21E45F4F00C9C8D3 /* TableViewCells */,
+				A8E7E73921E4277B00C9C8D3 /* Storyboards */,
 			);
 			path = CatFacts;
+			sourceTree = "<group>";
+		};
+		A8E7E73721E426EA00C9C8D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A890EAB621E3AF8600383769 /* LoginViewController.swift */,
+				A890EAC921E3C6B900383769 /* RegistrationViewController.swift */,
+				A890EACB21E3C6D700383769 /* CatFactsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A8E7E73821E4270B00C9C8D3 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				A8E7E73121E416DC00C9C8D3 /* Users+CoreDataProperties.swift */,
+				A8E7E73221E416DD00C9C8D3 /* Users+CoreDataClass.swift */,
+				A890EAE921E3D5EF00383769 /* UserManager.swift */,
+				A890EABB21E3AF8600383769 /* CatFacts.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		A8E7E73921E4277B00C9C8D3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A890EAC021E3AF8600383769 /* LaunchScreen.storyboard */,
+				A890EAB821E3AF8600383769 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A8E7E73C21E45F2B00C9C8D3 /* AlamofireRequest */ = {
+			isa = PBXGroup;
+			children = (
+				A8E7E73521E41CD900C9C8D3 /* Request.swift */,
+				A8E7E72321E4156B00C9C8D3 /* CatFacts.swift */,
+			);
+			path = AlamofireRequest;
+			sourceTree = "<group>";
+		};
+		A8E7E73D21E45F4F00C9C8D3 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				A8E7E73A21E427D900C9C8D3 /* TableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		E5554B0EBE5770A72384A1E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				75BBDC4DD802479A72EFB7D7 /* Pods-CatFacts.debug.xcconfig */,
+				12180DEB6423885B715A80B9 /* Pods-CatFacts.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A890EAC621E3AF8600383769 /* Build configuration list for PBXNativeTarget "CatFacts" */;
 			buildPhases = (
+				6712FC3F475C57D7F05808F0 /* [CP] Check Pods Manifest.lock */,
 				A890EAAD21E3AF8600383769 /* Sources */,
 				A890EAAE21E3AF8600383769 /* Frameworks */,
 				A890EAAF21E3AF8600383769 /* Resources */,
+				A6CE1EF6B8C69D312327CFF0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -134,14 +224,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6712FC3F475C57D7F05808F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatFacts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6CE1EF6B8C69D312327CFF0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CatFacts/Pods-CatFacts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CatFacts/Pods-CatFacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A890EAAD21E3AF8600383769 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A890EAB721E3AF8600383769 /* ViewController.swift in Sources */,
+				A890EACC21E3C6D700383769 /* CatFactsViewController.swift in Sources */,
+				A890EAB721E3AF8600383769 /* LoginViewController.swift in Sources */,
+				A8E7E72421E4156B00C9C8D3 /* CatFacts.swift in Sources */,
 				A890EABD21E3AF8600383769 /* CatFacts.xcdatamodeld in Sources */,
+				A890EACA21E3C6B900383769 /* RegistrationViewController.swift in Sources */,
+				A890EAEA21E3D5EF00383769 /* UserManager.swift in Sources */,
+				A8E7E73B21E427D900C9C8D3 /* TableViewCell.swift in Sources */,
+				A8E7E73321E416DD00C9C8D3 /* Users+CoreDataProperties.swift in Sources */,
+				A8E7E73621E41CD900C9C8D3 /* Request.swift in Sources */,
 				A890EAB521E3AF8600383769 /* AppDelegate.swift in Sources */,
+				A8E7E73421E416DD00C9C8D3 /* Users+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +335,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = default;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -255,6 +394,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -276,6 +416,7 @@
 		};
 		A890EAC721E3AF8600383769 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75BBDC4DD802479A72EFB7D7 /* Pods-CatFacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +431,7 @@
 		};
 		A890EAC821E3AF8600383769 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12180DEB6423885B715A80B9 /* Pods-CatFacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
